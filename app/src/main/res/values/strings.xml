@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Calculo_IMC</string>
+    <string name="peso">Peso:</string>
+    <string name="altura">Altura:</string>
+    <string name="kg">Kg:</string>
+    <string name="centimetros">Centimetros:</string>
+    <string name="calcular_imc">Calcular IMC</string>
+    <string name="seu_imc">Seu IMC:</string>
+    <string name="situa_o">Situação:</string>
+    <string name="muito_abaixo_do_peso">Muito abaixo do peso</string>
+    <string name="abaixo_do_peso">Abaixo do Peso</string>
+    <string name="peso_normal">Peso Normal</string>
+    <string name="acima_do_peso">Acima do Peso</string>
+    <string name="obesidade_1">Obesidade 1</string>
+    <string name="obesidade_2">Obesidade 2</string>
+    <string name="obesidade_3">Obesidade 3</string>
+</resources>
