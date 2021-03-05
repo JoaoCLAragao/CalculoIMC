@@ -31,25 +31,25 @@ class MainActivity : AppCompatActivity() {
         imc = massa / (altura * altura)
         if (imc > 40) {
             resultadoIMC.text = imc.toString()
-            resultadoSituacao.text = (R.string.obesidade_3).toString()
+            resultadoSituacao.text = resources.getString(R.string.obesidade_3)
         } else if (imc >= 35) {
             resultadoIMC.text = imc.toString()
-            resultadoSituacao.text = (R.string.obesidade_2).toString()
+            resultadoSituacao.text = resources.getString(R.string.obesidade_2)
         } else if (imc >= 30) {
             resultadoIMC.text = imc.toString()
-            resultadoSituacao.text = (R.string.obesidade_1).toString()
+            resultadoSituacao.text = resources.getString(R.string.obesidade_1)
         } else if (imc >= 25) {
             resultadoIMC.text = imc.toString()
-            resultadoSituacao.text = (R.string.acima_do_peso).toString()
+            resultadoSituacao.text = resources.getString(R.string.acima_do_peso)
         } else if (imc >= 18.5) {
             resultadoIMC.text = imc.toString()
-            resultadoSituacao.text = (R.string.peso_normal).toString()
+            resultadoSituacao.text = resources.getString(R.string.peso_normal)
         } else if (imc >= 17) {
             resultadoIMC.text = imc.toString()
-            resultadoSituacao.text = (R.string.abaixo_do_peso).toString()
+            resultadoSituacao.text = resources.getString(R.string.abaixo_do_peso)
         } else {
             resultadoIMC.text = imc.toString()
-            resultadoSituacao.text = (R.string.muito_abaixo_do_peso).toString()
+            resultadoSituacao.text = resources.getString(R.string.muito_abaixo_do_peso)
         }
     }
 }
