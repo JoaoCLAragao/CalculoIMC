@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         var massa = findViewById<EditText>(R.id.editTextKG).text.toString().toDouble()
         var altura = findViewById<EditText>(R.id.editTextCM).text.toString().toDouble()
         var imc : Double
+        
 
         imc = massa / (altura * altura)
         if (imc > 40) {
