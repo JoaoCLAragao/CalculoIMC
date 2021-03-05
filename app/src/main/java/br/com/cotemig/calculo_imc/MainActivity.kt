@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         var imc : Double
         
 
+
         imc = massa / (altura * altura)
         if (imc > 40) {
             resultadoIMC.text = imc.toString()
